@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_click"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="add"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/starclick"
+        android:icon="@android:drawable/btn_star"
+        android:title="star"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemclick"
+        android:title="Item"
+        app:showAsAction="never" />
+</menu>
