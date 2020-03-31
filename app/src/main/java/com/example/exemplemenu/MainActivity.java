@@ -47,9 +47,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.starclick:
                 Toast.makeText(context, "mon message Star", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.itemclick:
-                Toast.makeText(context, "mon message Item", Toast.LENGTH_SHORT).show();
-                break;
         }
 
         return true;
